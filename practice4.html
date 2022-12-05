@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="text-align: center">
+    <button onclick ="play()">play</button>
+    <button onclick ="pause()">pause</button>
+    <button on click ="makeBig()">Big</button>
+    <button on click ="makeSmall()">Small</button>
+    <button on cick ="makeNorrmal()">Normal</button>
+    <br><br>
+    <video width="320" height="420"  controls id="lp">
+        <source src="Jaadugar.2022.720p.10Bit.HEVC.NF.WEB-DL.x265.DD+.5.1.-.192Kbps.Hindi.-.MoviesRock.NL.mkv" type="video/mp4">
+    </video>
+       </div>
+<script>
+    function play()  {
+       
+       document.getElementById('lp').play()
+       
+
+    }
+
+    function pause()  {
+       
+       document.getElementById('lp').pause()
+       
+
+    }
+
+
+    // function makeBig() {
+    //     myvideo.width ="320";
+    // }
+    // function makeSmall() {
+    //     myvideo.width ="420";
+    // }
+    // function makeNorrmal() {
+    //     myvideo.width ="560";
+    // }
+</script>
+<p>video courtesy os  <a href="Jaadugar.2022.720p.10Bit.HEVC.NF.WEB-DL.x265.DD+.5.1.-.192Kbps.Hindi.-.MoviesRock.NL.mkv" target="_blank">video/mp4</a></p>
+</body>
+</html>

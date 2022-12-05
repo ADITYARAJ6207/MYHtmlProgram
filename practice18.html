@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>date field restriction</h2>
+    <form action="/action_page.php">
+        <label for="datemin">Enter a date after 2002-08-07:</label> 
+        <input type="date" id="datemin" name="datemin" min="2002-08-07"><br>
+        <label for="datemax">Enter a date before 1995-04-08:</label>
+        <input type="date" id="datemax" name="datemax" max="1995-04-08"><br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
